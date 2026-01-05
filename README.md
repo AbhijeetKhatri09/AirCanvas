@@ -1,6 +1,8 @@
 # Air-Canvas: Real-Time Virtual Drawing
 
 Air-Canvas is a computer vision-based application that allows users to draw on a digital screen by moving their hands in the air. By leveraging gesture recognition, the platform tracks hand movements to paint in different colors and manage a virtual canvas without any physical contact.
+<img width="1594" height="636" alt="image" src="https://github.com/user-attachments/assets/057b8065-1dc5-4e97-a2e2-418be9c4bb78" />
+
 
 ---
 
@@ -19,6 +21,8 @@ The Air-Canvas platform consists of three main technical layers:
 * **Input Layer (Camera):** Captures real-time video frames using the webcam via OpenCV.
 * **Processing Layer (Mediapipe):** Processes the frames to detect 21 hand landmarks and identifies the specific coordinates of the index finger and thumb.
 * **Output Layer (Canvas):** Uses NumPy to create a blank white "Paint" window and overlays the drawing points based on the tracked coordinates.
+  <img width="740" height="676" alt="image" src="https://github.com/user-attachments/assets/85b1a645-20b7-4d60-8f53-e0640af1687e" />
+
 
 ---
 
@@ -37,6 +41,8 @@ The Air-Canvas platform consists of three main technical layers:
     * **Drawing Mode:** Moving the index finger allows the user to draw.
     * **Stop/New Line:** Bringing the thumb close to the index finger (distance < 30) stops the current line.
 * **Virtual Dashboard:** The top of the screen features 5 interactive zones: **CLEAR**, **BLUE**, **GREEN**, **RED**, and **YELLOW**.
+  <img width="1597" height="635" alt="image" src="https://github.com/user-attachments/assets/a619a318-9e23-4d0b-bf2f-94b7edce2bd1" />
+
 
 ---
 
