@@ -2,7 +2,7 @@
 
 Air-Canvas is a computer vision-based application that allows users to draw on a digital screen by moving their hands in the air. By leveraging gesture recognition, the platform tracks hand movements to paint in different colors and manage a virtual canvas without any physical contact.
 
-<img width="1594" height="636" alt="image" src="https://github.com/user-attachments/assets/057b8065-1dc5-4e97-a2e2-418be9c4bb78" />
+![Project Demo](Aircanva.GIF)
 
 
 ---
